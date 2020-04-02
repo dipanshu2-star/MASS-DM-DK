@@ -1,1 +1,1 @@
-worker: python public.py
+worker: python public.bin
