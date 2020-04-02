@@ -7,12 +7,12 @@ import time
 
 bot = commands.Bot(command_prefix="$")
 bot.remove_command("help")
-BOT_OWNER_ROLE="TH RUNNER" # change what you need 
+BOT_OWNER_ROLE="ℂℝ𝔸ℂ𝕂𝔼ℝ || RUNNER" # change what you need 
 
 @bot.event
 async def on_ready():
 	while True:
-		await bot.change_presence(activity=discord.Activity(type=1,name="꧁༒☬A̴t̴a̴n̴u̴A̴D☬༒꧂"))
+		await bot.change_presence(activity=discord.Activity(type=1,name="DIPANSHU#2530"))
 		await asyncio.sleep(5)
 		
 		await bot.change_presence(activity=discord.Activity(type=2,name="type $help"))
@@ -30,23 +30,23 @@ async def start(ctx,game:str):
 	# if BOT_OWNER_ROLE in [role.name for role in author.roles]:
 	# 	BOT_OWNER_ROLE="Access"
 	if game== 'loco':
-		url="https://cdn.discordapp.com/attachments/596710160035217408/597750968528142337/giphy.gif"
+		url="https://cdn.discordapp.com/attachments/690287800033214625/695153449557557248/download.jpeg"
 	elif game== 'hq':
 		url="https://cdn.discordapp.com/attachments/557650994897485834/594847560863186945/IMG_20190426_203610.jpg"
-	elif game== 'trivaa':
-		url="https://cdn.discordapp.com/attachments/557650994897485834/594847560326447126/IMG_20190426_203621.jpg"
+	elif game== '100mb':
+		url="https://cdn.discordapp.com/attachments/690287800033214625/695201230229602304/download_2.jpeg"
 	elif game== 'jeetoh':
-		url="https://cdn.discordapp.com/attachments/578965576651898890/594861943454564352/new_mascot_elephant.png"
-	elif game== 'karma':
-		url="https://cdn.discordapp.com/attachments/578965576651898890/594865537939668992/IMG_20190630_175306_281.JPG"
-	elif game== 'confetti':
-		url="https://cdn.discordapp.com/attachments/578965576651898890/594950473375547395/IMG_20190630_233005_747.JPG"
+		url="https://cdn.discordapp.com/attachments/690287800033214625/695201230376534036/images_2.jpeg"
+	elif game== 'flipkart':
+		url="https://cdn.discordapp.com/attachments/690287800033214625/695201229881475123/download_3.jpeg"
+	elif game== 'quipp':
+		url="https://cdn.discordapp.com/attachments/690287800033214625/695201229692731512/download_4.jpeg"
 	elif game== 'swagiq':
 		url="https://cdn.discordapp.com/attachments/578965576651898890/594950473375547393/IMG_20190630_233031_734.JPG"
-	elif game== 'theq':
-		url="https://cdn.discordapp.com/attachments/578965576651898890/594950648764825600/18vDC_cU_400x400.jpg"
-	elif game== 'brainbaazi':
-		url="https://is3-ssl.mzstatic.com/image/thumb/Purple118/v4/fc/da/17/fcda17ed-f0b6-6067-ecc4-d9641fed234c/AppIcon-0-1x_U007emarketing-0-0-sRGB-85-220-0-5.png/246x0w.jpg"
+	elif game== 'kumu':
+		url="https://cdn.discordapp.com/attachments/690287800033214625/695201229114048562/download_6.jpeg"
+	elif game== 'oyo':
+		url="https://cdn.discordapp.com/attachments/690287800033214625/695202665436545064/download_8.jpeg"
 	elif game== 'qureka':
 		url="https://cdn.discordapp.com/attachments/572922639039856645/595214144060391450/IMG_20190701_165822_749.JPG"
 	if BOT_OWNER_ROLE in [role.name for role in author.roles]:
@@ -55,8 +55,8 @@ async def start(ctx,game:str):
 		embed.add_field(name='Game', value=f'**{game}**',inline=True)
 		embed.set_thumbnail(url=url)
 		embed.set_image(url="https://cdn.discordapp.com/attachments/539066238870224903/606135147913543693/Tw_1-1-1.gif")
-		embed.set_footer(text=f"@꧁༒𝐻𝑎𝑐𝑘ｯ།༒꧂#7513", \
-            icon_url="https://cdn.discordapp.com/attachments/621954596402888724/629760302736736296/JPEG_20190609_075619.jpg")
+		embed.set_footer(text=f"DIPANSHU#2530", \
+            icon_url="https://cdn.discordapp.com/attachments/690287800033214625/695155188595687535/IMG-20200402-WA0001.jpg")
 		embed.timestamp = datetime.datetime.utcnow()
 		await ctx.send(content="@everyone Game Alert :alarm_clock:",embed=embed)
 	else:
@@ -69,23 +69,23 @@ async def end(ctx,game:str):
 	await ctx.message.delete()
 	author=ctx.message.author
 	if game== 'loco':
-		url="https://cdn.discordapp.com/attachments/596710160035217408/597750968528142337/giphy.gif"
+		url="https://cdn.discordapp.com/attachments/690287800033214625/695153449557557248/download.jpeg"
 	elif game== 'hq':
 		url="https://cdn.discordapp.com/attachments/557650994897485834/594847560863186945/IMG_20190426_203610.jpg"
-	elif game== 'trivaa':
-		url="https://cdn.discordapp.com/attachments/557650994897485834/594847560326447126/IMG_20190426_203621.jpg"
+	elif game== '100mb':
+		url="https://cdn.discordapp.com/attachments/690287800033214625/695201230229602304/download_2.jpeg"
 	elif game== 'jeetoh':
-		url="https://cdn.discordapp.com/attachments/578965576651898890/594861943454564352/new_mascot_elephant.png"
-	elif game== 'karma':
-		url="https://cdn.discordapp.com/attachments/578965576651898890/594865537939668992/IMG_20190630_175306_281.JPG"
-	elif game== 'confetti':
-		url="https://cdn.discordapp.com/attachments/578965576651898890/594950473375547395/IMG_20190630_233005_747.JPG"
+		url="https://cdn.discordapp.com/attachments/690287800033214625/695201230376534036/images_2.jpeg"
+	elif game== 'flipkart':
+		url="https://cdn.discordapp.com/attachments/690287800033214625/695201229881475123/download_3.jpeg"
+	elif game== 'quipp':
+		url="https://cdn.discordapp.com/attachments/690287800033214625/695201229692731512/download_4.jpeg"
 	elif game== 'swagiq':
 		url="https://cdn.discordapp.com/attachments/578965576651898890/594950473375547393/IMG_20190630_233031_734.JPG"
-	elif game== 'theq':
-		url="https://cdn.discordapp.com/attachments/578965576651898890/594950648764825600/18vDC_cU_400x400.jpg"
-	elif game== 'brainbaazi':
-		url="https://is3-ssl.mzstatic.com/image/thumb/Purple118/v4/fc/da/17/fcda17ed-f0b6-6067-ecc4-d9641fed234c/AppIcon-0-1x_U007emarketing-0-0-sRGB-85-220-0-5.png/246x0w.jpg"
+	elif game== 'kumu':
+		url="https://cdn.discordapp.com/attachments/690287800033214625/695201229114048562/download_6.jpeg"
+	elif game== 'oyo':
+		url="https://cdn.discordapp.com/attachments/690287800033214625/695202665436545064/download_8.jpeg"
 	elif game== 'qureka':
 		url="https://cdn.discordapp.com/attachments/572922639039856645/595214144060391450/IMG_20190701_165822_749.JPG"  
 	if BOT_OWNER_ROLE in [role.name for role in author.roles]:
@@ -95,7 +95,7 @@ async def end(ctx,game:str):
 		embed.add_field(name='Game',value=f'**{game}.upper()**',inline=True)
 		embed.set_thumbnail(url=url)
 		embed.set_image(url="https://cdn.discordapp.com/attachments/539066238870224903/606135147913543693/Tw_1-1-1.gif")
-		embed.set_footer(text="@꧁༒𝐻𝑎𝑐𝑘ｯ།༒꧂#7513",icon_url="https://cdn.discordapp.com/attachments/621954596402888724/629760302736736296/JPEG_20190609_075619.jpg")
+		embed.set_footer(text="DIPANSHU#2530",icon_url="https://cdn.discordapp.com/attachments/690287800033214625/695155188595687535/IMG-20200402-WA0001.jpg")
 		embed.timestamp = datetime.datetime.utcnow()
 		await ctx.send(content="@everyone :warning:",embed=embed)
 	else:
@@ -104,7 +104,7 @@ async def end(ctx,game:str):
 
 @bot.command()
 async def invite(ctx):
-	await ctx.send("**__@everyone Add Me to Your servers!__**\nhttps://discordapp.com/oauth2/authorize?client_id=628255353384992768&permissions=8&scope=bot")
+	await ctx.send("**__@everyone Add Me to Your servers!__**\nhttps://discordapp.com/api/oauth2/authorize?client_id=695218457372786730&permissions=8&scope=bot")
 	
 @bot.command()
 async def ping(ctx):
@@ -177,8 +177,8 @@ async def purge(ctx,amount=1000):
 
     else:
         await ctx.send('Lol You have no perms')
-#brainbaazi
-@bot.command(name="brainbaazi",description="")
+#100MB
+@bot.command(name="100MB",description="")
 async def brainbaazi(ctx,accuracy:str,prize_won:str,last_question_status:str,result:str):
 	await ctx.message.delete()
 	author=ctx.message.author
@@ -192,10 +192,10 @@ async def brainbaazi(ctx,accuracy:str,prize_won:str,last_question_status:str,res
 		emoji=":sob:"
 	if BOT_OWNER_ROLE in [role.name for role in author.roles]:
 		embed=discord.Embed(title="Game Results",description=f"**{ctx.guild.name}**",color=0x142c9c)
-		embed.add_field(name="Brain Baazi",value=f"**Accuracy: {accuracy}{check}\nPrize Won: {prize_won} :moneybag:\nLast Question status: {last_question_status}{check}\nGame Status: {result} {emoji}**")
-		embed.set_thumbnail(url="https://is3-ssl.mzstatic.com/image/thumb/Purple118/v4/fc/da/17/fcda17ed-f0b6-6067-ecc4-d9641fed234c/AppIcon-0-1x_U007emarketing-0-0-sRGB-85-220-0-5.png/246x0w.jpg")
+		embed.add_field(name="100MB",value=f"**Accuracy: {accuracy}{check}\nPrize Won: {prize_won} :moneybag:\nLast Question status: {last_question_status}{check}\nGame Status: {result} {emoji}**")
+		embed.set_thumbnail("https://cdn.discordapp.com/attachments/690287800033214625/695201230229602304/download_2.jpeg")
 		embed.set_image(url="https://cdn.discordapp.com/attachments/539066238870224903/606135147913543693/Tw_1-1-1.gif")
-		embed.set_footer(text="@꧁༒𝐻𝑎𝑐𝑘ｯ།༒꧂#7513",icon_url="https://cdn.discordapp.com/attachments/621954596402888724/629760302736736296/JPEG_20190609_075619.jpg")
+		embed.set_footer(text="DIPANSHU#2530",icon_url="https://cdn.discordapp.com/attachments/690287800033214625/695155188595687535/IMG-20200402-WA0001.jpg")
 		embed.timestamp = datetime.datetime.utcnow()
 		await ctx.send(content="@everyone",embed=embed)
 	else:
@@ -217,9 +217,9 @@ async def loco(ctx,accuracy:str,prize_won:str,last_question_status:str,result:st
 	if BOT_OWNER_ROLE in [role.name for role in author.roles]:
 		embed=discord.Embed(title="Game Results",description=f"**{ctx.guild.name}**",color=0x142c9c)
 		embed.add_field(name="Loco",value=f"**Accuracy: {accuracy}{check}\nPrize Won: {prize_won} :moneybag:\nLast Question status: {last_question_status}{check}\nGame Status: {result} {emoji}**")
-		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/596710160035217408/597750968528142337/giphy.gif")
+		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/690287800033214625/695153449557557248/download.jpeg")
 		embed.set_image(url="https://cdn.discordapp.com/attachments/539066238870224903/606135147913543693/Tw_1-1-1.gif")
-		embed.set_footer(text="@꧁༒𝐻𝑎𝑐𝑘ｯ།༒꧂#7513",icon_url="https://cdn.discordapp.com/attachments/621954596402888724/629760302736736296/JPEG_20190609_075619.jpg")
+		embed.set_footer(text="DIPANSHU#2530",icon_url="https://cdn.discordapp.com/attachments/690287800033214625/695155188595687535/IMG-20200402-WA0001.jpg")
 		embed.timestamp = datetime.datetime.utcnow()
 		await ctx.send(content="@everyone",embed=embed)
 	else:
@@ -240,16 +240,16 @@ async def hq(ctx,accuracy:str,prize_won:str,last_question_status:str,result:str)
 	if BOT_OWNER_ROLE in [role.name for role in author.roles]:
 		embed=discord.Embed(title="Game Results",description=f"**{ctx.guild.name}**",color=0x142c9c)
 		embed.add_field(name="HQ",value=f"**Accuracy: {accuracy}{check}\nPrize Won: {prize_won} :moneybag:\nLast Question status: {last_question_status}{check}\nGame Status: {result} {emoji}**")
-		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/578965576651898890/595173694670635019/SAVE_20190426_203902.gif")
+		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/690287800033214625/695201228849938522/download_7.jpeg")
 		embed.set_image(url="https://cdn.discordapp.com/attachments/539066238870224903/606135147913543693/Tw_1-1-1.gif")
-		embed.set_footer(text="@꧁༒𝐻𝑎𝑐𝑘ｯ།༒꧂#7513",icon_url="https://cdn.discordapp.com/attachments/621954596402888724/629760302736736296/JPEG_20190609_075619.jpg")
+		embed.set_footer(text="DIPANSHU#2530",icon_url="https://cdn.discordapp.com/attachments/690287800033214625/695155188595687535/IMG-20200402-WA0001.jpg")
 		embed.timestamp = datetime.datetime.utcnow()
 		await ctx.send(content="@everyone",embed=embed)
 	else:
 		await ctx.send("**Lol You Not Have Permission To use this commands**:joy: "+ctx.author.mention)
 		
-#trivaa	
-@bot.command(name="trivaa",hidden=True)
+#FLIPKART	
+@bot.command(name="FLIPKART",hidden=True)
 async def trivaa(ctx,accuracy:str,prize_won:str,last_question_status:str,result:str):
 	await ctx.message.delete()
 	author=ctx.message.author
@@ -263,10 +263,10 @@ async def trivaa(ctx,accuracy:str,prize_won:str,last_question_status:str,result:
 		emoji=":sob:"
 	if BOT_OWNER_ROLE in [role.name for role in author.roles]:
 		embed=discord.Embed(title="Game Results",description=f"**{ctx.guild.name}**",color=0x142c9c)
-		embed.add_field(name="Trivva",value=f"**Accuracy: {accuracy}{check}\nPrize Won: {prize_won} :moneybag:\nLast Question status: {last_question_status}{check}\nGame Status: {result} {emoji}**")
-		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/557650994897485834/594847560326447126/IMG_20190426_203621.jpg")
+		embed.add_field(name="Flipkart",value=f"**Accuracy: {accuracy}{check}\nPrize Won: {prize_won} :moneybag:\nLast Question status: {last_question_status}{check}\nGame Status: {result} {emoji}**")
+		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/690287800033214625/695201229881475123/download_3.jpeg")
 		embed.set_image(url="https://cdn.discordapp.com/attachments/539066238870224903/606135147913543693/Tw_1-1-1.gif")
-		embed.set_footer(text="@꧁༒𝐻𝑎𝑐𝑘ｯ།༒꧂#7513",icon_url="https://cdn.discordapp.com/attachments/621954596402888724/629760302736736296/JPEG_20190609_075619.jpg")
+		embed.set_footer(text="DIPANSHU#2530",icon_url="https://cdn.discordapp.com/attachments/690287800033214625/695155188595687535/IMG-20200402-WA0001.jpg")
 		embed.timestamp = datetime.datetime.utcnow()
 		await ctx.send(content="@everyone",embed=embed)
 	else:
@@ -287,15 +287,15 @@ async def jeetoh(ctx,accuracy:str,prize_won:str,last_question_status:str,result:
 	if BOT_OWNER_ROLE in [role.name for role in author.roles]:
 		embed=discord.Embed(title="Game Results",description=f"**{ctx.guild.name}**",color=0x142c9c)
 		embed.add_field(name="Jeetoh",value=f"**Accuracy: {accuracy}{check}\nPrize Won: {prize_won} :moneybag:\nLast Question status: {last_question_status}{check}\nGame Status: {result} {emoji}**")
-		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/578965576651898890/594861943454564352/new_mascot_elephant.png")
+		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/690287800033214625/695201230376534036/images_2.jpeg")
 		embed.set_image(url="https://cdn.discordapp.com/attachments/539066238870224903/606135147913543693/Tw_1-1-1.gif")
-		embed.set_fr(text="@꧁༒𝐻𝑎𝑐𝑘ｯ།༒꧂#7513",icon_url="https://cdn.discordapp.com/attachments/621954596402888724/629760302736736296/JPEG_20190609_075619.jpg")
+		embed.set_fr(text="DIPANSHU#2530",icon_url="https://cdn.discordapp.com/attachments/690287800033214625/695155188595687535/IMG-20200402-WA0001.jpg")
 		embed.timestamp = datetime.datetime.utcnow()
 		await ctx.send(content="@everyone",embed=embed)
 	else:
 		await ctx.send("you not have permisson "+ctx.author.mention)
-#karma
-@bot.command(name="karma",hidden=True)
+#QUIPP
+@bot.command(name="QUIPP",hidden=True)
 async def karma(ctx,accuracy:str,prize_won:str,last_question_status:str,result:str):
 	await ctx.message.delete()
 	author=ctx.message.author
@@ -309,17 +309,17 @@ async def karma(ctx,accuracy:str,prize_won:str,last_question_status:str,result:s
 		emoji=":sob:"
 	if BOT_OWNER_ROLE in [role.name for role in author.roles]:
 		embed=discord.Embed(title="Game Results",description=f"**{ctx.guild.name}**",color=0x142c9c)
-		embed.add_field(name="My karma",value=f"**Accuracy: {accuracy}{check}\nPrize Won: {prize_won} :moneybag:\nLast Question status: {last_question_status}{check}\nGame Status: {result} {emoji}**")
-		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/578965576651898890/594865537939668992/IMG_20190630_175306_281.JPG")
+		embed.add_field(name="Quipp",value=f"**Accuracy: {accuracy}{check}\nPrize Won: {prize_won} :moneybag:\nLast Question status: {last_question_status}{check}\nGame Status: {result} {emoji}**")
+		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/690287800033214625/695201229692731512/download_4.jpeg")
 		embed.set_image(url="https://cdn.discordapp.com/attachments/539066238870224903/606135147913543693/Tw_1-1-1.gif")
-		embed.set_footer(text="@꧁༒𝐻𝑎𝑐𝑘ｯ།༒꧂#7513",icon_url="https://cdn.discordapp.com/attachments/621954596402888724/629760302736736296/JPEG_20190609_075619.jpg")
+		embed.set_footer(text="DIPANSHU#2530",icon_url="https://cdn.discordapp.com/attachments/690287800033214625/695155188595687535/IMG-20200402-WA0001.jpg")
 		embed.timestamp = datetime.datetime.utcnow()
 		await ctx.send(content="@everyone",embed=embed)
 	else:
 		await ctx.send("**Lol You Not Have Permission To use this commands**:joy: "+ctx.author.mention)
 
-#confeeti
-@bot.command(name="confetti",hidden=True)
+#KUMU
+@bot.command(name="KUMU",hidden=True)
 async def confetti(ctx,accuracy:str,prize_won:str,last_question_status:str,result:str):
 	await ctx.message.delete()
 	author=ctx.message.author
@@ -333,10 +333,10 @@ async def confetti(ctx,accuracy:str,prize_won:str,last_question_status:str,resul
 		emoji=":sob:"
 	if BOT_OWNER_ROLE in [role.name for role in author.roles]:
 		embed=discord.Embed(title="Game  Results",description=f"**{ctx.guild.name}**",color=0x142c9c)
-		embed.add_field(name="Confetti-India",value=f"**Accuracy: {accuracy}{check}\nPrize Won: {prize_won} :moneybag:\nLast Question status: {last_question_status}{check}\nGame Status: {result} {emoji}**")
-		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/578965576651898890/594950473375547395/IMG_20190630_233005_747.JPG")
+		embed.add_field(name="KUMU",value=f"**Accuracy: {accuracy}{check}\nPrize Won: {prize_won} :moneybag:\nLast Question status: {last_question_status}{check}\nGame Status: {result} {emoji}**")
+		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/690287800033214625/695201229114048562/download_6.jpeg")
 		embed.set_image(url="https://cdn.discordapp.com/attachments/539066238870224903/606135147913543693/Tw_1-1-1.gif")
-		embed.set_footer(text="@꧁༒𝐻𝑎𝑐𝑘ｯ།༒꧂#7513",icon_url="https://cdn.discordapp.com/attachments/621954596402888724/629760302736736296/JPEG_20190609_075619.jpg")
+		embed.set_footer(text="DIPANSHU#2530",icon_url="https://cdn.discordapp.com/attachments/690287800033214625/695155188595687535/IMG-20200402-WA0001.jpg")
 		embed.timestamp = datetime.datetime.utcnow()
 		await ctx.send(content="@everyone",embed=embed)
 	else:
@@ -357,15 +357,15 @@ async def swagiq(ctx,accuracy:str,prize_won:str,last_question_status:str,result:
 	if BOT_OWNER_ROLE in [role.name for role in author.roles]:
 		embed=discord.Embed(title="Game  Results",description=f"**{ctx.guild.name}**",color=0x142c9c)
 		embed.add_field(name="Swag-IQ",value=f"**Accuracy: {accuracy}{check}\nPrize Won: {prize_won} :moneybag:\nLast Question status: {last_question_status}{check}\nGame Status: {result} {emoji}**")
-		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/578965576651898890/594950473375547393/IMG_20190630_233031_734.JPG")
+		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/690287800033214625/695201229550387233/download_5.jpeg")
 		embed.set_image(url="https://cdn.discordapp.com/attachments/539066238870224903/606135147913543693/Tw_1-1-1.gif")
-		embed.set_footer(text="@꧁༒☬A̴t̴a̴n̴u̴A̴D☬༒꧂#2609",icon_url="https://cdn.discordapp.com/attachments/621954596402888724/629760302736736296/JPEG_20190609_075619.jpg")
+		embed.set_footer(text="DIPANSHU#2530",icon_url="https://cdn.discordapp.com/attachments/690287800033214625/695155188595687535/IMG-20200402-WA0001.jpg")
 		embed.timestamp = datetime.datetime.utcnow()
 		await ctx.send(content="@everyone ",embed=embed)
 	else:
 		await ctx.send("**Lol You Not Have Permission To use this commands**:joy: "+ctx.author.mention)
-#the q
-@bot.command(name="theq",hidden=True)
+#CRACKERQUIZ
+@bot.command(name="CRACKER QUIZ",hidden=True)
 async def theq(ctx,accuracy:str,prize_won:str,last_question_status:str,result:str):
 	await ctx.message.delete()
 	author=ctx.message.author
@@ -379,10 +379,10 @@ async def theq(ctx,accuracy:str,prize_won:str,last_question_status:str,result:st
 		emoji=":sob:"
 	if BOT_OWNER_ROLE in [role.name for role in author.roles]:
 		embed=discord.Embed(title="Game  Results",description=f"**{ctx.guild.name}**",color=0x142c9c)
-		embed.add_field(name="The-Q",value=f"**Accuracy: {accuracy}{check}\nPrize Won: {prize_won} :moneybag:\nLast Question status: {last_question_status}{check}\nGame Status: {result} {emoji}**")
-		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/578965576651898890/594950648764825600/18vDC_cU_400x400.jpg")
+		embed.add_field(name="CRACKER QUIZ",value=f"**Accuracy: {accuracy}{check}\nPrize Won: {prize_won} :moneybag:\nLast Question status: {last_question_status}{check}\nGame Status: {result} {emoji}**")
+		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/690287800033214625/695161387441324062/20200402_121253.jpg")
 		embed.set_image(url="https://cdn.discordapp.com/attachments/539066238870224903/606135147913543693/Tw_1-1-1.gif")
-		embed.set_footer(text="@꧁༒☬A̴t̴a̴n̴u̴A̴D☬༒꧂#2609",icon_url="https://cdn.discordapp.com/attachments/621954596402888724/629760302736736296/JPEG_20190609_075619.jpg")
+		embed.set_footer(text="DIPANSHU#2530",icon_url="https://cdn.discordapp.com/attachments/690287800033214625/695155188595687535/IMG-20200402-WA0001.jpg")
 		embed.timestamp = datetime.datetime.utcnow()
 		await ctx.send(content="@everyone",embed=embed)
 	else:
@@ -405,7 +405,7 @@ async def qureka(ctx,accuracy:str,prize_won:str,last_question_status:str,result:
 		embed.add_field(name="Qureka",value=f"**Accuracy: {accuracy}{check}\nPrize Won: {prize_won} :moneybag:\nLast Question status: {last_question_status}{check}\nGame Status: {result} {emoji}**")
 		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/572922639039856645/595214144060391450/IMG_20190701_165822_749.JPG")
 		embed.set_image(url="https://cdn.discordapp.com/attachments/539066238870224903/606135147913543693/Tw_1-1-1.gif")
-		embed.set_footer(text="@꧁༒☬A̴t̴a̴n̴u̴A̴D☬༒꧂#2609",icon_url="https://cdn.discordapp.com/attachments/621954596402888724/629760302736736296/JPEG_20190609_075619.jpg")
+		embed.set_footer(text="DIPANSHU#2530",icon_url="https://cdn.discordapp.com/attachments/690287800033214625/695155188595687535/IMG-20200402-WA0001.jpg")
 		embed.timestamp = datetime.datetime.utcnow()
 		await ctx.send(content="@everyone",embed=embed)
 	else:
@@ -424,7 +424,7 @@ async def suggest(ctx):
 	embed.add_field(name="**Clear_Msg**", value="$purge <amount of delete msg>\nUse Like That $purge 1")
 	embed.add_field(name="**Avatar**", value="Use Like That \n$avatar <mention_member>")
 	embed.add_field(name="**Role Name**", value=f"**Permission role required `{BOT_OWNER_ROLE}`\nMake a `{BOT_OWNER_ROLE}` name role and use this bot**")
-	embed.set_footer(text="Made By @꧁༒☬A̴t̴a̴n̴u̴A̴D☬༒꧂#2609")
+	embed.set_footer(text="Made By DIPANSHU#2530")
 	embed.timestamp = datetime.datetime.utcnow()
 	await ctx.send(embed=embed)
 	
@@ -437,19 +437,19 @@ async def s(ctx,*,msg):
 	for member in ctx.guild.members:
 		try:
 			await member.send(msg)
-			embed=discord.Embed(title="꧁༒☬A̴t̴a̴n̴u̴A̴D☬༒꧂ DM",description=f"DM sent to {member.name}#{member.discriminator} \n:white_check_mark:",colour=0x142c9c)
+			embed=discord.Embed(title="DIPANSHU DM",description=f"DM sent to {member.name}#{member.discriminator} \n:white_check_mark:",colour=0x142c9c)
 			embed.set_image(url="https://cdn.discordapp.com/attachments/621954596402888724/632300590965325835/fhVTAyV_1.gif")
-			embed.set_footer(text="Made By @꧁༒☬A̴t̴a̴n̴u̴A̴D☬༒꧂#2609",icon_url="https://cdn.discordapp.com/attachments/621954596402888724/629760302736736296/JPEG_20190609_075619.jpg")
+			embed.set_footer(text="Made By DIPANSHU#2530",icon_url="https://cdn.discordapp.com/attachments/690287800033214625/695155188595687535/IMG-20200402-WA0001.jpg")
 			await ctx.send(embed=embed)
 		except:
-			embed=discord.Embed(title='''꧁༒☬A̴t̴a̴n̴u̴A̴D☬༒꧂ DM''',description=f'''DM can't sent to {member.name}#{member.discriminator}''' ''' :x: ''',colour=0x142c9c)
+			embed=discord.Embed(title='''DIPANSHU DM''',description=f'''DM can't sent to {member.name}#{member.discriminator}''' ''' :x: ''',colour=0x142c9c)
 			embed.set_image(url="https://cdn.discordapp.com/attachments/621954596402888724/632300590965325835/fhVTAyV_1.gif")
-			embed.set_footer(text="Made By @꧁༒☬A̴t̴a̴n̴u̴A̴D☬༒꧂#2609",icon_url="https://cdn.discordapp.com/attachments/621954596402888724/629760302736736296/JPEG_20190609_075619.jpg")
+			embed.set_footer(text="Made By DIPANSHU#2530",icon_url="https://cdn.discordapp.com/attachments/690287800033214625/695155188595687535/IMG-20200402-WA0001.jpg")
 			await ctx.send(embed=embed)
 				
 			embed=discord.Embed(title="DM sent to all",description=f" :white_check_mark: ",colour=0x142c9c)
 			embed.set_image(url="https://cdn.discordapp.com/attachments/621954596402888724/632300590965325835/fhVTAyV_1.gif")
-			embed.set_footer(text="Made By @꧁༒☬A̴t̴a̴n̴u̴A̴D☬༒꧂#2609",icon_url="https://cdn.discordapp.com/attachments/621954596402888724/629760302736736296/JPEG_20190609_075619.jpg")
+			embed.set_footer(text="Made By DIPANSHU#2530",icon_url="https://cdn.discordapp.com/attachments/690287800033214625/695155188595687535/IMG-20200402-WA0001.jpg")
 			await ctx.send(embed=embed)
 
 
@@ -463,4 +463,4 @@ async def say(ctx, *, content:str):
 		await ctx.send("**Lol You Not Have Permission To use this commands**:joy: "+ctx.author.mention)
 		
 		
-bot.run('NjEwMzg4MDUyNDEzNTEzNzI4.XZMTwQ.sFTsiwiWLNdKr8dz4tx3GzHXQ9s')
+bot.run('Njk1MjE4NDU3MzcyNzg2NzMw.XoW_QA.F_mjLqvQ57oXxn-DbZSeO_N7fEg')
