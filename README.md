@@ -1,3 +1,4 @@
-# MASS-DM-DK 
-# created by Spider Dk.
-# Bot use in discord !
+# GAME ALERT BOT
+# ACCURACY BOT
+# DM BOT
+MADE BY DIPANSHU#2530
